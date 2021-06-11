@@ -1,0 +1,12 @@
+Project 2
+
+Title: Movie Names
+Goal: Given a set/list of actors, return all the movies that they acted in together
+
+Rough Outline:
+0. Settle on a language. Stick with just one language.
+1. Identify a data source (Eg: Wikipedia, IMDB, etc)
+2. Figure out how to get the data from the source into a form that we can use. What tools to use here? Scrapy or wikipedia API.
+3. Clean the data and figure out how to extract just the actor/actress names (and later maybe other attributes).
+4. With the clean data, try and figure out which data structures best to use to do our queries. (Tentatively just a 2d-table with actor 1, actor 2, movie, etc columns and each row corresponding to a movie.
+5. Given a pair of actor/actresses, write a script that scans the table and returns a list of all movies that have the given actors.
